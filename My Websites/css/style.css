@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    margin-left: 12px;
+
 
 }
 body{
     background-color: aquamarine;
     font-size: larger;
+    margin: 0 5%;
 }
 
 ol >li {
@@ -27,9 +28,9 @@ ol >li {
 .my-blog{
     border: 5px solid whitesmoke;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     border-top: 5px dashed wheat;
-    padding: 8px;
+    padding: 10px;
 }
 
 marquee{
@@ -51,8 +52,17 @@ marquee{
     background-repeat: no-repeat;
 }
 h1.welcome{
-    color:#788b00;
+    /* color:#788b00; */
     text-align: center;
     text-decoration: underline wavy greenyellow;
     text-shadow:1px 1px 2px #414909;
+}
+.top{
+    text-align: right;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 800;
+    color: orange;
+    text-shadow: 2px 2px 5px red;
+    margin: 2%;
 }
