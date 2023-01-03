@@ -52,9 +52,10 @@ marquee{
     background-repeat: no-repeat;
 }
 h1.welcome{
-    /* color:#788b00; */
+    color:#788b00;
     text-align: center;
     text-decoration: underline wavy greenyellow;
+    text-underline-offset: 10px;
     text-shadow:1px 1px 2px #414909;
 }
 .top{
