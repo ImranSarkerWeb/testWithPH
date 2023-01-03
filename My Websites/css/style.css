@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-
+    text-decoration: none;
 
 }
 body{
@@ -65,4 +65,20 @@ h1.welcome{
     color: orange;
     text-shadow: 2px 2px 5px red;
     margin: 2%;
+}
+nav > ul >li{
+    list-style-type: none;
+    display: inline;
+    border: 2px solid white;
+    margin-left: 15px;
+    padding: 10px;
+    background-color: rgb(165, 231, 231);
+    
+    
+
+}
+
+nav>ul>li:hover{
+    background-color: wheat;
+    transition-delay: .01s;
 }
