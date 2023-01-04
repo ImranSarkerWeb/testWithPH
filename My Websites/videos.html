@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Video for practice</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin: 5% 10%;
+            background-color: aquamarine ;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -17,6 +26,20 @@
             </ul>
         </nav>
     </header>
+    <section>
+        <div>
+            <h3>Welcome to MP3 jone!</h3>
+            <audio src="assets/media/goat-sound.mp3" controls></audio>
+        </div>
+        <div><h3>
+            Video streaming on going! </h3>
+            <video src="assets/media/video.mp4" width="450px" height="450px" controls></video>
+        </div>
+        <div>
+            <h3>Video from web!</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dldpud1PuL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </section>
     
 </body>
 </html>
